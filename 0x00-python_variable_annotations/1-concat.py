@@ -5,5 +5,4 @@
 
 def concat(a: str, b: str) -> str:
     """ return str """
-
     return a + b
