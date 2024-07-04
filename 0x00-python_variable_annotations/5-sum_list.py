@@ -4,6 +4,5 @@ from typing import Callable, Iterator, Union, Optional, List
 
 
 def sum_list(l: List[float]) -> float:
-    """return int"""
-    return (sum(l))
-
+    """return float"""
+    return sum(l)
