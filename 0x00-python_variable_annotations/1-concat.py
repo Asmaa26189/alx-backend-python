@@ -1,8 +1,8 @@
 #!/usr/bin/env python3
 
-""" concat """
+""" Basic annotations concat """
 
 
 def concat(a: str, b: str) -> str:
-    """ return str """
+    """ Returns sum of two strings """
     return a + b
