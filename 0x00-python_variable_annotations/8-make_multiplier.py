@@ -4,10 +4,9 @@ from typing import Callable, Iterator, Union, Optional, List, Tuple
 
 
 def make_multiplier(multiplier: float) -> Callable[[float], float]:
-    """return callable"""
-
+    """multiplier"""
     def f(n: float) -> float:
-        """ multiplier """
+        """ multiplies a float by multiplier """
         return float(n * multiplier)
-    
+
     return f
