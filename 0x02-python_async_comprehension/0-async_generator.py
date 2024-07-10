@@ -3,7 +3,7 @@
 """ Async """
 
 import asyncio
-import random  
+import random 
 from typing import Generator
 
 
