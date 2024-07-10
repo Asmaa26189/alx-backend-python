@@ -1,6 +1,6 @@
 #!/usr/bin/env python3
 
-""" Async Comprehensions """
+""" Async """
 
 from asyncio import sleep
 from random import uniform
@@ -10,6 +10,6 @@ async_generator = __import__('0-async_generator').async_generator
 
 
 async def async_comprehension() -> List[float]:
-    """ Async Comprehensions  """
+    """ async_comprehension """
     a = [i async for i in async_generator()]
     return a
